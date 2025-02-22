@@ -3,7 +3,7 @@ library(ggrepel)
 library(showtext)
 library(readxl)
 
-df <- read_excel("C:/Users/ps222/Downloads/top_50_wr_epa.xlsx")
+df <- read_excel("C:/Users/ps222/Downloads/top_75_wr_epa.xlsx")
 
 df$epa_per_play <- as.numeric(df$epa_per_target)
 df$plays <- as.numeric(df$targets)
